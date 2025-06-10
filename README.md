@@ -19,13 +19,35 @@ Topic | Timeslot |
 
 *[N] = Nihit*
 
+## Sessions Format
+
+Every session is composed by a short lecture, followed by tutorials.
+
+For the tutorials, we advice participants to code along. The code of many of the tutorials can be run locally. Some tutorials (particularly the one on supervised approaches) will require using Google Colab. How to set-up the environment is explained below.
+
 ## Set-up
 
+You will need Python + a few libraries in your computer. There are two options for this: (1) installing using pip (preferred if you are using Linux or Mac), or (2) using Conda.
 
-### Using your own computer
+### Installing using PIP
+First things first: Install Python (https://www.python.org/downloads/). Download 3.11.
 
-### Using Google Colab
+Once installed, open the terminal, go to the folder with the code, and run:
 
+````
+./create_venv.sh
+````
+
+If this does not work, you may need run one command before.
+````
+chmod +x ./create_venv.sh
+./create_venv.sh
+````
+
+
+### Run locally 
+
+For setting up the 
 
 ## Code
 
