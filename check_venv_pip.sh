@@ -7,3 +7,4 @@ source .venv/bin/activate
 python ./utils/sanity_check.py
 
 # deactivate
+deactivate

@@ -74,16 +74,25 @@ You should have the environment already installed. And you discovered in ten ste
 ### Test that everything works as expected.
 
 Go to the folder were the code is located, and run the following two commands:
-````
-chmod +x ./check_venv.sh
-./check_venv.sh
-````
+### for pip users:
+```
+chmod +x ./check_venv_pip.sh
+./check_venv_pip.sh
+```
+
+### for conda users:
+```
+chmod +x ./check_venv_conda.sh
+./check_venv_conda.sh
+```
 
 Does all work?
 
 ## Code
 
-This repository has X jupyter notebooks, that will be used for
+
+## Slides
+
 
 ## Credits
 Credits to Nihit Goyal mail@mail.com and Edgar Salas Gironés.
