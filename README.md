@@ -1,5 +1,5 @@
 # nlp_icpp
-Course on Natural Language Processing for Policy Research (ICPP 2025)
+Course on Natural Language Processing for Policy Research (ICPP 2025).
 
 ## Introduction
 
@@ -69,13 +69,11 @@ cd ./ippa/
 pip install -r .\requirements.txt
 ```
 
-You should have the environment already installed. And you learn in ten steps why many NLPers do not like using windows 😃. 
+You should have the environment already installed. And you discovered in ten steps why many NLPers do not like using windows 😃. 
 
 ### Test that everything works as expected.
 
-Go to the folder were the code is located, and run the following:
-
-Run these two commands:
+Go to the folder were the code is located, and run the following two commands:
 ````
 chmod +x ./check_venv.sh
 ./check_venv.sh
