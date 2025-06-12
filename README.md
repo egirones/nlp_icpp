@@ -95,5 +95,5 @@ Does all work?
 
 
 ## Credits
-Credits to Nihit Goyal mail@mail.com and Edgar Salas Gironés.
+Credits...
 

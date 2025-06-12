@@ -7,6 +7,7 @@ if __name__ == "__main__":
     import bertopic
     from sentence_transformers import SentenceTransformer
     from mistralai import Mistral
+    
     print("All works!")
     
 
