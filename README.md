@@ -19,11 +19,25 @@ Topic | Timeslot |
 
 *[N] = Nihit*
 
+
 ## Sessions Format
 
 Every session is composed by a short lecture, followed by tutorials.
 
 For the tutorials, we advice participants to code along. The code of many of the tutorials can be run locally. Some tutorials (particularly the one on supervised approaches) will require using Google Colab. How to set-up the environment is explained below.
+
+## New to Python?
+
+We will use Python. Never used it? No problem, you can follow a crash course. We strongly encourage you to learn the basics! 
+
+Here are two crash courses on Python, for free!
+
+* Python for Data Science, Datacamp: https://www.datacamp.com/courses/intro-to-python-for-data-science
+* Python, Codecademy: https://www.codecademy.com/learn/learn-python-3 
+
+We will also use terminal commands, there are two nice resources for learning:
+* Introduction to Shell: https://app.datacamp.com/learn/courses/introduction-to-shell  
+* Learn the Command Line: https://www.codecademy.com/learn/learn-the-command-line
 
 ## Set-up
 
