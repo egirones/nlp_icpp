@@ -36,7 +36,7 @@ Here are two crash courses on Python, for free!
 * Python, Codecademy: https://www.codecademy.com/learn/learn-python-3 
 
 We will also use terminal commands, there are two nice resources for learning:
-* Introduction to Shell: https://app.datacamp.com/learn/courses/introduction-to-shell  
+* Introduction to Shell: https://www.datacamp.com/courses/introduction-to-shell  
 * Learn the Command Line: https://www.codecademy.com/learn/learn-the-command-line
 
 ## Set-up
@@ -109,5 +109,7 @@ Does all work?
 
 
 ## Credits
-Credits...
+Credits..
+
+Some Generative LLM involved.
 
