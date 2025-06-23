@@ -13,7 +13,7 @@ Topic | Timeslot |
 | Dictionary approaches [N]| 10:00-10:45 |
 | Rule-based [N] | 11:00-11:45 |
 | Large Language Models & vectors [E] | 12:00-12:45 |
-| Lunch :bento: | 12:00-12:45 |
+| Lunch :bento: | 12:45-14:00 |
 | Unsupervised approaches [N] | 14:00-14:45 |
 | Supervised approaches [E] | 15:00-15:45 |
 | Generative Large Language Models [E] | 16:00-16:45|
