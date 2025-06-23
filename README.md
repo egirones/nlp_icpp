@@ -5,15 +5,19 @@ Course on Natural Language Processing for Policy Research (ICPP 2025).
 
 ## Structure of the course
 
+(tentative, with coffee breaks every 45 minutes)
+
 Topic | Timeslot |
 |----------|----------|
-| Introductions [E,N]  | 09:00-18:00 |
-| Dictionary approaches [N]| 09:00-18:00 |
-| Rule-based [N] | 09:00-18:00 |
-| Large Language Models & vectors [E] | 09:00-18:00 |
-| Unsupervised approaches [N] | 09:00-18:00 |
-| Supervised approaches [E] | 09:00-18:00 |
-| Generative Large Language Models [E] | 09:00-18:00|
+| Introductions [E,N]  | 09:30-10:00 |
+| Dictionary approaches [N]| 10:00-10:45 |
+| Rule-based [N] | 11:00-11:45 |
+| Large Language Models & vectors [E] | 12:00-12:45 |
+| Lunch :bento: | 12:00-12:45 |
+| Unsupervised approaches [N] | 14:00-14:45 |
+| Supervised approaches [E] | 15:00-15:45 |
+| Generative Large Language Models [E] | 16:00-16:45|
+| Round-up [E] | 17:00-17:15|
 
 *[E] = Edgar*
 
