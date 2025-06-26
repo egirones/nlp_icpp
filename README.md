@@ -17,7 +17,7 @@ Topic | Timeslot |
 | Unsupervised approaches [N] | 14:00-14:45 |
 | Supervised approaches [E] | 15:00-15:45 |
 | Generative Large Language Models [E] | 16:00-16:45|
-| Round-up [E] | 17:00-17:15|
+| Round-up [E,N] | 17:00-17:15|
 
 *[E] = Edgar*
 
