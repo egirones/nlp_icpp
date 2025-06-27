@@ -1,18 +1,27 @@
 # nlp_icpp
 Course on Natural Language Processing for Policy Research (ICPP 2025).
 
-## Introduction
+<!-- ## Introduction -->
+
+## How to use this repository
+
+If you use git command line, to you can clone it using the following command:
+```
+git clone https://github.com/egirones/nlp_icpp.git
+```
+
+If not, go to download github desktop (https://desktop.github.com/download/) and download the repository `https://github.com/egirones/nlp_icpp.git`
 
 ## Structure of the course
 
-(tentative, with coffee breaks every 45 minutes)
+(tentative, with coffee breaks between every session)
 
 Topic | Timeslot |
 |----------|----------|
 | Introductions [E,N]  | 09:30-10:00 |
-| Dictionary approaches [N]| 10:00-10:45 |
-| Rule-based [N] | 11:00-11:45 |
-| Large Language Models & vectors [E] | 12:00-12:45 |
+| Preprocessing approaches [N]| 10:00-10:45 |
+| Dictionary and rule-based [N] | 11:00-11:45 |
+| Embeddings & vectors [E] | 12:00-12:45 |
 | Lunch :bento: | 12:45-14:00 |
 | Unsupervised approaches [N] | 14:00-14:45 |
 | Supervised approaches [E] | 15:00-15:45 |
@@ -26,7 +35,7 @@ Topic | Timeslot |
 
 ## Sessions Format
 
-Every session is composed by a short lecture, followed by tutorials.
+Every session is composed by a short lecture and by tutorials.
 
 For the tutorials, we advice participants to code along. The code of many of the tutorials can be run locally. Some tutorials (particularly the one on supervised approaches) will require using Google Colab. How to set-up the environment is explained below.
 
@@ -108,12 +117,12 @@ Does all work?
 
 ## Code
 
+We will upload the code to the folder `code`. To date, it has only two files with basic python and data manipulation techniques. Please go ahead and check them, if you would like to get familiar with basic commands.
 
 ## Slides
 
+Slides will be published prior prior to the course.
 
 ## Credits
-Credits..
 
-Some Generative LLM involved.
-
+Goyal \& Salas Gironés

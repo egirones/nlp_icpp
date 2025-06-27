@@ -11,6 +11,9 @@ slides/*
 #!slides/*.tex
 #!slides/*.pdf
 
+#code/*
+code/*_101.ipynb
+
 # Distribution / packaging
 .Python
 build/
