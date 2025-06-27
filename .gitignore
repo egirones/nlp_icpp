@@ -11,6 +11,8 @@ slides/*
 #!slides/*.tex
 #!slides/*.pdf
 
+data/*
+
 #code/*
 code/*_101.ipynb
 
