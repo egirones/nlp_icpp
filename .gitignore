@@ -13,7 +13,6 @@ slides/*
 
 data/*
 
-#code/*
 code/*_101.ipynb
 
 # Distribution / packaging
