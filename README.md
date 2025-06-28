@@ -52,6 +52,11 @@ We will also use terminal commands, there are two nice resources for learning:
 * Introduction to Shell: https://www.datacamp.com/courses/introduction-to-shell  
 * Learn the Command Line: https://www.codecademy.com/learn/learn-the-command-line
 
+*BONUS* If you are interested in how to use Github, but never used it before, another free course:
+* Github, Codecademy: https://www.codecademy.com/learn/learn-git
+
+(git is the technology, Github the platform. If you now git, you can also use it in similar platforms)
+
 ## Set-up
 
 You will need Python + a few libraries in your computer. There are two options for this: (1) installing using pip (preferred if you are using Linux or Mac), or (2) using Conda.
@@ -117,7 +122,9 @@ Does all work?
 
 ## Code
 
-We will upload the code to the folder `code`. To date, it has only two files with basic python and data manipulation techniques. Please go ahead and check them, if you would like to get familiar with basic commands.
+We will upload the code to the folder `code`. To date, it has only two files with basic python and data manipulation techniques*. Please go ahead and check them, if you would like to get familiar with basic commands.
+
+\* will be uploaded soon.
 
 ## Slides
 
