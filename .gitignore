@@ -13,7 +13,6 @@ slides/*
 
 data/*
 
-code/word_embeddings.ipynb
 
 # Distribution / packaging
 .Python
