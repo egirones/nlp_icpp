@@ -12,7 +12,7 @@ slides/*
 #!slides/*.pdf
 
 data/*
-
+helpcode/*
 
 # Distribution / packaging
 .Python
