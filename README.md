@@ -12,6 +12,13 @@ git clone https://github.com/egirones/nlp_icpp.git
 
 If not, go to download github desktop (https://desktop.github.com/download/) and download the repository `https://github.com/egirones/nlp_icpp.git`
 
+### Update repository!
+
+You will need to update the repository, you will need the code:
+```
+git pull
+```
+
 ## Structure of the course
 
 (tentative, with coffee breaks between every session)

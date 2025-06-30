@@ -11,7 +11,8 @@ slides/*
 #!slides/*.tex
 #!slides/*.pdf
 
-data/*
+data/data_edgar.csv
+
 helpcode/*
 
 # Distribution / packaging
