@@ -1,0 +1,128 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+\usetheme{Madrid}
+\usecolortheme{default}
+\usefonttheme{professionalfonts}
+
+
+\title{Word embeddings \& vectors}
+\author[E. Salas Gironés]{Edgar Salas Gironés, \\ e.girones@tudelft.nl}
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}{The Challenge of Representing Text}
+    \begin{itemize}
+        \item Machines can`t do much analyzing text in its raw forms:
+        \begin{itemize}
+            \item Lexical similarity.
+            \item Count words or n-grams..
+        \end{itemize} 
+        \item However, machines can do way more with numbers! Some examples:
+        \begin{itemize}
+            \item Arithmetic functions: Add, subtract, multiply, normalize... 
+            \item Statistical functions: Identify variance, means, distances...
+            \item Probabilistic functions: KL/JS divergence, probabilities, bayeian inference....
+        \end{itemize}
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{How do we represent words? Word embeddings!}
+
+What is a word embedding? It is a vector that `maps' word(s) into a vector space.
+
+    \begin{columns}
+        \begin{column}{0.3\textwidth}
+            \[
+            \vec{v}_{\text{climate}} =
+            \begin{bmatrix}
+            0.12 \\
+            -0.87 \\
+            \vdots \\
+            0.45
+            \end{bmatrix}
+            \]
+        \end{column}
+
+        \begin{column}{0.7\textwidth}
+            \begin{itemize}
+                \item How is this value defined? Learned from large corpora.
+                \item Words that occur in similar contexts tend to have similar meanings, “You shall know a word by the company it keeps.” (Firth, 1957)
+            \end{itemize}
+        \end{column}
+    \end{columns}
+
+\end{frame}
+
+\begin{frame}{Example: let's plot a few words}
+    \begin{center}
+        \includegraphics[width=0.7\textwidth]{img/similarity.png}
+    \end{center}
+\end{frame}
+    
+\begin{frame}{Two types of embeddings: Static vs contextual embedding}
+    \begin{itemize}
+        \item One embedding per word!
+        \item Why is this a problem?There is no possibility of disambiguation:
+        \begin{itemize}
+            \item \textit{party}: party leader, birthday party
+            \item \textit{draft}: draft beer, football draft, policy draft
+        \end{itemize}
+        \item Solution: contextual embeddings!
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Contextual Embeddings (e,g, BERT)}
+    \begin{itemize}
+        \item Transformer-based models (e.g., BERT) generate vectors \textit{in context}.
+        \item Word meaning varies by sentence.
+        \item Applications in policy:
+        \begin{itemize}
+            \item Argument mining.
+            \item Detecting changes in sentiment or position.
+            \item Fine-grained text classification.
+        \end{itemize}
+        \item Embeddings now at sentence, paragraph, or document level.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Examples}
+    Given this sentence: ``"The minister submitted a policy draft'', and these candidate sentences... 
+    \vspace{0.5cm}
+    \begin{enumerate}
+        \item The pub served warm draft beer.
+        \item The NBA draft is taking place.
+        \item The bill has passed.
+    \end{enumerate}
+    \vspace{0.5cm}
+     what would you prefer the text embedding model to do?
+\end{frame}
+
+\begin{frame}
+    Go to code\dots
+\end{frame}
+
+\begin{frame}{Extra: Dimensionality reduction!}
+    Why dimensionality reduction? Curse of dimentionality: More dimensions, data becomes more sparse...
+
+    \vspace{0.5cm}
+
+    Solution? We reduce dimensions! Somehow transform many dimensions, (e.g. a sentence-transformers model of 768 dimensions) to a few...
+
+    \vspace{0.5cm}
+    \begin{itemize}
+        \item PCA.
+        \item t-SNE, example \href{https://distill.pub/2016/misread-tsne/}{here}.
+        \item UMAP, example \href{https://pair-code.github.io/understanding-umap/}{here}.
+    \end{itemize}
+\end{frame}
+
+
+\end{document}
+

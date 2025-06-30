@@ -1,0 +1,69 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+
+\title{Supervised approaches for policy research}
+\author[E Salas Gironés]{Edgar Salas Gironés, \\ e.girones@tudelft.nl}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{Supervised approaches}
+    In unsupervised approaches, we focused on techniques that do not account for a `target variable', what do we want to predict?
+
+    \vspace{0.5cm}
+    A few examples:
+
+    \begin{itemize}
+        \item We want to perform topic modeling, and we have an intuition of what topics will appear in the texts.
+        \item We would like to classify texts based on some variables (e.g. relevant, non-relevant).
+        \item We want to extract information based on certain categories.
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Supervised learning 101}
+    \begin{itemize}
+        \item For using supervised approaches, we need to have labeled examples.
+        \item The task (and its evaluation is based on how good our model learns to predict the right label for new data).
+        \item The models wants to learn how to associate features with labels
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{General structure of a supervised approach}
+    Independent of the method or technique (e.g. using a decision tree or a neural network), the dataset is divided into three sets:
+    \vspace{0.5cm}
+    
+    \begin{itemize}
+        \item Training set $\rightarrow$  The model learns patterns using this set.
+        \item Test set. $\rightarrow$  The model performance is evaluated using this set.
+        \item Validation set. $\rightarrow$ Are you already sure that the model performs well? A final evaluation is used using this set.\footnote{Another option is cross-validation, reference here}
+    \end{itemize}
+    
+    \vspace{0.5cm}
+
+\end{frame}
+
+\begin{frame}{Evaluation}
+    \begin{center}
+        \includegraphics[width=0.7\textwidth]{img/conf_matrix.jpg}
+    \end{center}
+\end{frame}
+
+\begin{frame}{Evaluation}
+    Four major evaluation metrics:
+
+    \begin{itemize}
+        \item Accuracy = How often was the model correct in prediction a label?
+        \item Precision = Out of the predictions that model gave to a label (e.g. A), how many there were correct?
+        \item Recall = Out of all entries with one label (e.g. A), how many where correctly identified?
+        \item F1 score = 2 × (precision × recall) / (precision + recall)
+    \end{itemize}
+    
+\end{frame}
+
+\end{document}

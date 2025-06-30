@@ -1,0 +1,74 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\title{Using Generative Language Models for Policy Research}
+\author[E. Salas Gironés]{Edgar Salas Gironés \\ e.girones@tudelft.nl}
+\date{\today}
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+\end{frame}
+
+\begin{frame}{What Are Generative Language Models?}
+\begin{itemize}
+    \item AI models that generate human-like text.
+    \item Examples: ChatGPT, Claude, Mistral, Gemini
+    \item It is based on token-level predictions:
+    \item Technically, LLMs do not understand nor reason, they only provide information based on probabilities!
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Alert! LLMs will always produce something.}
+    LLMs will always produce something. Thus, we have two important tasks to make LLMs work `better':
+    \begin{itemize}
+        \item Reduce the amount of inaccurate information being produced (e.g. IPPA is taking place in Siam (rather than Thailand)).
+        \item Reduce the model tendency to `create' information, i.e. hallucination (e.g. IPPA stands for International Pigeon Performance Association)).
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Why this matters?}
+    \begin{itemize}
+        \item You can reduce hallucinations by techniques, such as temperature, information retrieval, etc.
+        \item You can reduce wrong information by update information, fact checking, human evaluation. 
+    \end{itemize}
+\end{frame}
+
+\begin{frame}{Prompt Engineering 101}
+    How you interact with an LLM? Through prompting. 
+
+    \vspace{0.5cm}
+    What constitutes a prompt?
+    \begin{itemize}
+        \item Context.
+        \item Instruction.
+        \item Input data (almost always)
+        \item Indication of how you want the output.
+    \end{itemize}
+\end{frame}
+
+% Slide 4
+\begin{frame}{Chain-of-Thought Prompting}
+\begin{itemize}
+    \item Break complex tasks into steps
+    \item Guide the model through reasoning
+    \item Example:
+    \begin{enumerate}
+        \item Extract the main claim
+        \item Identify supporting evidence
+        \item Write a neutral summary
+    \end{enumerate}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{How to do it in practice?}
+    You would start small, with a basic prompt, e.g. giving only basic information and an instruction, and later refine it in small iterations.
+
+    You would compare the results you get with a `ground truth', or human made example.
+\end{frame}
+
+\end{document}

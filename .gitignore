@@ -8,8 +8,8 @@ __pycache__/
 *.so
 
 slides/*
-#!slides/*.tex
-#!slides/*.pdf
+!slides/*.tex
+!slides/*.pdf
 
 data/data_edgar.csv
 
